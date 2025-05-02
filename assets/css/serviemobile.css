@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .nav_main {
+        padding: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_toggle {
+        display: block;
+    }
+    .nav_menu {
+        display: none;
+        width: 100%;
+        background: rgba(116, 198, 157, 1);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        padding: 20px 0;
+        z-index: 10;
+    }
+    .nav_menu.active {
+        display: block;
+    }
+    .nav_menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 40px;
+    }
+    
+    .card1 {
+        width: 90%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .dolor {
+        font-size: 40px;
+      }
+    
+    .amet,
+    .basic,
+    .month {
+        font-size: 15px;
+    }
+    
+    .check,
+    .check_two,
+    .check_three,
+    .check_four,
+    .check_five {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    
+    .more_btn {
+        width: 80%;
+        margin: 30px auto 0;
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    .footer_main{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        gap: 20px;
+    }
+}
